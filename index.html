@@ -4,48 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        .hero {
-            text-align: center;
-            padding: 50px;
-            background-color: #f4f4f4;
-        }
-        .hero h1 {
-            margin: 0;
-        }
-        .gallery {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            padding: 20px;
-        }
-        .gallery img {
-            width: 200px;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 10px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -64,7 +23,7 @@
         <img src="https://via.placeholder.com/200x150" alt="Imagen 3">
     </div>
 
-    <footer>
+    <footer class="fixed">
         <p>&copy; 2025 Todos los derechos reservados.</p>
     </footer>
 </body>
